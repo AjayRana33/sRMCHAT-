@@ -1,0 +1,91 @@
+body{
+		color: #999;
+		background-image:url(../images/image1.jpg);
+		font-family: 'Roboto', sans-serif;
+		background-size: cover;
+	}
+        .ctr
+        {
+                width: 400px;
+		margin: 0px 100px 0px;		
+         }
+        .ctr h2{
+         font-size: 100px;
+		font-weight: bold;
+		font-family: 'Impact', fantasy;  
+         }
+        .ctr p{
+          margin: 0px 0 0px;
+		font-size: 17px;
+		line-height: normal;
+		font-family: 'Apple Chancery', cursive;
+         
+         }
+	.form-control{
+		min-height: 41px;
+		box-shadow: none;
+		border-color: #e1e1e1;
+	}
+	.form-control:focus{
+		border-color: #0082CB;
+	}	
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+	.form-header{
+		margin: -170px -30px 20px;
+		padding: 30px 30px 10px;
+		text-align: center;
+		background: #0082CB;
+		border-bottom: 1px solid #eee;
+		color: #fff;
+	}
+	.form-header h2{
+		font-size: 34px;
+		font-weight: bold;
+        margin: 0 0 10px;
+		font-family: 'Impact', fantasy;
+    }
+	.form-header p{
+		margin: 20px 0 15px;
+		font-size: 17px;
+		line-height: normal;
+		font-family: 'Apple Chancery', cursive;
+	}
+    .signin-form{
+		width: 390px;
+		margin: -40px 900px 20px;	
+		padding: 30px 0;	
+	}
+    .signin-form form{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #f0f0f0;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.signin-form .form-group{
+		margin-bottom: 20px;
+	}		
+	.signin-form label{
+		font-weight: normal;
+		font-size: 13px;
+	}
+    .signin-form .btn{        
+        font-size: 16px;
+        font-weight: bold;
+		background: #0082CB;
+		border: none;
+		min-width: 200px;
+    }
+	.signin-form .btn:hover, .signin-form .btn:focus{
+		background: #0082CB !important;
+        outline: none;
+	}
+    .signin-form a{
+		color: #0082CB;		
+	}
+    .signin-form a:hover{
+		text-decoration: underline;
+	}
